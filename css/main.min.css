@@ -1,0 +1,82 @@
+* {
+  border: none; }
+
+body {
+  background-image: url("../img/Background.jpg") !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.icons {
+  color: #0D0F45; }
+
+.btn-primary {
+  background-color: #0D0F45 !important;
+  border: none !important; }
+
+.navbar-brand {
+  transition: all 0.6s ease-in-out; }
+
+.navbar-brand:hover {
+  transform: scale(1.1); }
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.2); }
+
+.navbar-toggler {
+  background-color: rgba(13, 15, 69, 0.8); }
+
+.navBtn {
+  transition: all 0.6s ease !important; }
+
+.navBtn:hover {
+  color: white !important;
+  box-shadow: 20vw 0 0 #E6E0BB inset !important; }
+
+.appTitle {
+  text-align: center;
+  font-size: 55px;
+  color: white; }
+
+.newsContainer {
+  background: rgba(255, 255, 255, 0.5);
+  color: #0d0f45;
+  border-radius: 10px;
+  margin-top: 15px; }
+
+.newsDate {
+  font-size: 20px;
+  font-weight: 400; }
+
+.load-container {
+  display: flex;
+  justify-content: center; }
+
+.loadMore {
+  margin: 10px 0; }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: rgba(13, 15, 69, 0);
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 30px;
+  width: 50px; }
+
+#myBtn:hover {
+  background-color: rgba(230, 224, 187, 0.3); }
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white; }
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    position: sticky !important; } }
